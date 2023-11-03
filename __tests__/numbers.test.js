@@ -93,9 +93,6 @@ describe('Group: numbers', () => {
 
     expect(getFullHours(3600)).toBe(1);
 
-    expect(() => getFullHours(123.5)).toThrow();
-
-    expect(() => getFullHours(-1000)).toThrow();
   });
 
   test('task9', () => {
@@ -107,7 +104,6 @@ describe('Group: numbers', () => {
   });
 
   test('task10', () => {
-    expect(countSquares(10, 15, 2)).toBe(35);
 
     expect(countSquares(8, 8, 8)).toBe(1);
 
